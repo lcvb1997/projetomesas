@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",                          
+    "module": "commonjs",
+    "moduleResolution": "node",                    
+    "lib": ["es5", "es6", "ES2018"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,                     
+    "allowJs": true,
+    "outDir": "./dist",                          
+    "rootDir": "backend",
+    "strict": true,         
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "strictPropertyInitialization": false
+  },
+  "include": ["backend/**/*"],
+  "exclude": ["node_modules", "dist"],
+  "ts-node": {
+    "files": true
+  }
+}
